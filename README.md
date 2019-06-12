@@ -8,19 +8,19 @@
 
 - install node: <a href="https://nodejs.org/en/download">https://nodejs.org/en/download</a>
 
-## install
+## Install
 
 ```sh
-npm i -g yarn
+    npm i -g yarn
 
-git clone git@github.com:nialloc9/rollup-vs-webpack.git
+    git clone git@github.com:nialloc9/rollup-vs-webpack.git
 
-cd rollup-vs-webpack
+    cd rollup-vs-webpack
 
-npm install
+    npm install
 ```
 
-### run
+### Run
 
 ```sh
     npm run compile
