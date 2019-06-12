@@ -1,6 +1,6 @@
 'use strict';
 
-const foo = () => {console.log("foo");};
+const foo = require("./foo");
 
 const bar = () => { foo(); };
 
