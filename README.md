@@ -34,7 +34,7 @@
 
 ### Results
 
-- Webpack(988) has a larger bundle size than rollup(84) by 904 bytes.
+- Webpack(964) has a larger bundle size than rollup(110) by 854 bytes.
 
 - Upon inspection of the bundle it is because webpack wraps each module in a function that is internally invoked. This is to scope our code from each file.
 

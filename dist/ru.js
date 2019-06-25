@@ -1,7 +1,7 @@
 'use strict';
 
-const foo = require("./foo");
+const foo = () => {console.log("foo");};
 
 const bar = () => { foo(); };
 
-bar();
+module.exports = bar;
